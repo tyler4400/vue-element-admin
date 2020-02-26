@@ -3,7 +3,7 @@ const steps = [
     element: '#hamburger-container',
     popover: {
       title: 'Hamburger',
-      description: 'Open && Close sidebar',
+      description: 'Open && Close sidebar.这个好玩',
       position: 'bottom'
     }
   },
@@ -45,6 +45,15 @@ const steps = [
       title: 'Tags view',
       description: 'The history of the page you visited',
       position: 'bottom'
+    },
+    padding: 0
+  },
+  {
+    element: '#app-container',
+    popover: {
+      title: '主要工作区域',
+      description: '但是改动没有生效',
+      position: 'top'
     },
     padding: 0
   }

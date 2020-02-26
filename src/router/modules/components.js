@@ -22,7 +22,9 @@ const componentsRouter = {
       path: 'markdown',
       component: () => import('@/views/components-demo/markdown'),
       name: 'MarkdownDemo',
-      meta: { title: 'Markdown' }
+      meta: { title: 'Markdown',
+        roles: ['edi2tor'] // you can set roles in root nav
+      }
     },
     {
       path: 'json-editor',
